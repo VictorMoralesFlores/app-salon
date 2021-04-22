@@ -1,5 +1,7 @@
 .tabs{
+    padding-bottom: 0.8rem;
     @include grid(3,2rem);
+    overflow: scroll;
     button {
         background-color: $negro;
         border: none;
@@ -19,5 +21,7 @@
             border-bottom: 4px solid lighten($azul,30);
         }
     }
+
+    
 }
 
